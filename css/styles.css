@@ -1,0 +1,196 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+
+}
+
+.heading {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 2.5rem
+}
+
+
+.container-fluid {
+    padding: 30px 180px 50px;
+
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Navbar */
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+
+    padding: 8px 18px;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* Downlaod Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* Features */
+#features {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: center;
+    padding: 7% 15%;
+    text-align: center;
+    background: #fff;
+    position: relative;
+
+}
+
+.feature-box {
+    padding: 3%;
+}
+
+
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+
+i:hover {
+    color: #ff4c68;
+}
+
+
+/* testimonials */
+
+#testimonials {
+    font-family: "Montserrat";
+    text-align: center;
+    line-height: 1.5;
+    background-color: #ef8172;
+
+    color: #fff;
+
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-pics {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+
+/* pricing */
+#pricing {
+    font-family: "Montserrat";
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* media queries are used to code different style rules for different viewports */
+@media (max-width: 991px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.cta {
+    font-weight: bolder;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+#cta {
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+#footer {
+    text-align-last: center;
+    margin: 120px;
+    font-family: "Montserrat";
+}
+
+.icon-footer {
+    padding: 20px 10px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
